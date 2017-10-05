@@ -22,6 +22,7 @@ namespace CoolBreeze
 
         private void InitializeAppAsync()
         {
+
             if (App.ViewModel == null) App.ViewModel = new MainViewModel();
         }
 
